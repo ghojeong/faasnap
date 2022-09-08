@@ -23,6 +23,7 @@ main
 cmd
 kernel
 models
+!python-client/swagger_client/models
 restapi/*
 !restapi/configure_faasnap.go
 resources/recognition/

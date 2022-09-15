@@ -28,3 +28,4 @@ restapi/*
 !restapi/configure_faasnap.go
 resources/recognition/
 
+.idea

@@ -20,7 +20,7 @@
     "home_dir": "/home/intern/faasnap/",
     "host": "http://127.0.0.1:8080",
     "trace_api": "http://127.0.0.1:9411/api/v2/trace",
-    "test_dir": "/home/intern/snapshots/",
+    "test_dir": "/home/intern/test_dir/",
 
     "repeat": 1,
     "parallelism": [1],

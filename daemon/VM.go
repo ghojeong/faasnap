@@ -272,9 +272,9 @@ func (vc *VMController) StartVM(ctx *context.Context, function, kernel, image, n
 			log.Println(err)
 		}
 		log.Println("vmID:", vm.VmId, "Stopped")
-		vc.Lock()
-		delete(vc.Machines, vm.VmId)
-		vc.Unlock()
+		// vc.Lock()
+		// delete(vc.Machines, vm.VmId)
+		// vc.Unlock()
 	}(newVM)
 	return id, nil
 }

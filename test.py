@@ -355,7 +355,4 @@ if __name__ == '__main__':
             for par, par_snap in zip(params.parallelism, params.par_snapshots):
                 for record_input in params.record_input:
                     for test_input in params.test_input:
-                        try:
-                            run(params, setting=vars(params.settings)[setting], func=vars(params.functions)[func], par=par, par_snap=par_snap, repeat=params.repeat, record_input=record_input, test_input=test_input)
-                        except Exception as e:
-                            print(e)
+                        run(params, setting=vars(params.settings)[setting], func=vars(params.functions)[func], par=par, par_snap=par_snap, repeat=params.repeat, record_input=record_input, test_input=test_input)

@@ -3,17 +3,17 @@
         "log_level": "Warning",
         "base_path": "/home/intern/base_path/",
         "kernels": {
-            "v4.14": "/home/intern/linux-4.14.292/vmlinux",
+            "v4.14": "/home/intern/vanilla-kernel/vmlinux",
             "sanpage": "/home/intern/faasnap-kernel/vmlinux"
         },
         "images": {
             "debian": "/home/intern/faasnap/rootfs/debian-rootfs.ext4"
         },
         "executables": {
-            "vanilla": "/home/intern/firecracker/build/cargo_target/x86_64-unknown-linux-musl/debug/firecracker",
+	    "vanilla": "/home/intern/faasnap-firecracker/build/cargo_target/x86_64-unknown-linux-musl/debug/firecracker",
             "uffd": "/home/intern/faasnap-firecracker/build/cargo_target/x86_64-unknown-linux-musl/debug/firecracker"
         },
-        "redis_host": "127.0.0.1",
+        "redis_host": "10.20.16.165",
         "redis_passwd": "password"
     },
 
